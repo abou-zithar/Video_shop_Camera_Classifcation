@@ -40,7 +40,7 @@ pip install -r requirements.txt
 Open the notebook and run the cells step-by-step to train the model and evaluate it on the test set.
 ## Output
 The model will output a label of either "shop lifters" or "non shop lifters" based on the input video.
-
+![alt text](cm_output.png)
 ## Future Improvements
 Enhance the 3D CNN architecture to improve accuracy.
 Explore data augmentation techniques to improve generalization.
