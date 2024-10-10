@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'classify/styles.css' %}">
+    <link rel="icon" href="{% static 'classify/images/icon.png' %}" type="image/png">
+    <title>Thief Video Classifier</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload a Video</h1>
+        <form method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <div class="center">
+                <button type="submit">Upload Video</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'classify/styles.css' %}">
+    <link rel="icon" href="{% static 'classify/images/thief_icon.jpeg' %}" type="image/jpeg">
+    <title>Thief Video Classifier</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Thief Video Classifier</h1>
+        <div class="center">
+            <a href="{% url 'upload' %}">
+                <button>Upload a Video</button>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
