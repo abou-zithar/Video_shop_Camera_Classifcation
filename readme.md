@@ -20,6 +20,10 @@ The project utilizes a 3D CNN to capture both the spatial and temporal informati
 
 The model outputs one of the two classes based on the analysis of the video data.
 
+
+## Deployment
+This project uses Django for deployment. A web application has been created to display the classification results, allowing users to upload videos for real-time analysis. The model is integrated into the Django backend, processing video input and returning the classification label (either "shop lifters" or "non shop lifters").
+
 ## Files
 - `video-classification-thief-or-not(4) Aug.ipynb`: Jupyter notebook containing the full implementation including data preprocessing, model creation, training, and evaluation.
 
@@ -41,6 +45,11 @@ Open the notebook and run the cells step-by-step to train the model and evaluate
 ## Output
 The model will output a label of either "shop lifters" or "non shop lifters" based on the input video.
 ![alt text](cm_output.png)
+
+
+## Deployment Output
+![alt text](Deploy_output_1.png)
+![alt text](Deploy_output_2_1.png)
 ## Future Improvements
 Enhance the 3D CNN architecture to improve accuracy.
 Explore data augmentation techniques to improve generalization.
