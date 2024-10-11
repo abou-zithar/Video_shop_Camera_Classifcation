@@ -56,3 +56,4 @@ Explore data augmentation techniques to improve generalization.
 Experiment with different model architectures such as LSTM or transformer-based models.
 ## Author
 Mahmoud - Computer Vision Developer
+Omran - Computer Vision Developer
