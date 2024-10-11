@@ -55,5 +55,5 @@ Enhance the 3D CNN architecture to improve accuracy.
 Explore data augmentation techniques to improve generalization.
 Experiment with different model architectures such as LSTM or transformer-based models.
 ## Author
-Mahmoud - Computer Vision Developer
+Mahmoud - Computer Vision Developer.<br>
 Omran - Computer Vision Developer
